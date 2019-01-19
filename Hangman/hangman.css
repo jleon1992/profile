@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+.game{
+    border-radius: 3em;
+    text-align: center;
+}
+.letterBox{
+    margin: 0 .5em .5em 0;
+    border-radius: .3em;
+    border: 1px solid #666; 
+    text-align: center;
+    width: 3.3em;
+    height: 4.0em;
+    box-shadow: 0.2em 0.2em 0.5em #333;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+}
+.letter{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: fantasy;
+    vertical-align: center;
+    color: #3D2C0C;
+
+}
+
+.box{
+    margin: 0px auto;
+    height: 100px;
+}
+.score{
+    padding-right: 3em;
+}
+#word{
+    white-space: nowrap;
+    margin: 2.7em;
+    vertical-align: top;
+}
+.game{
+    top: 10em;
+    margin-top: 4em;
+}
